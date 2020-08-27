@@ -4,10 +4,10 @@ var Pusher = require('pusher');
 var users = require('../users');
 
 var pusher = new Pusher({
-    appId: 'PUSHER_APP_ID',
-    key: 'PUSHER_KEY',
-    secret: 'PUSHER_SECRET',
-    cluster: 'PUSHER_CLUSTER'
+    appId: '1061747',
+    key: '91137c32cc89fe3f12ce',
+    secret: '3236eb736ee29caa370c',
+    cluster: 'us2'
 });
 
 /* GET home page. */

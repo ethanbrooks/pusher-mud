@@ -20,8 +20,8 @@ class Login extends Component {
 
     render() {
         const { name, race, cls } = this.state;
-        const racesOptions = races.map((race) => <option value={race.id}>{race.name}</option>);
-        const classesOptions = classes.map((cls) => <option value={cls.id}>{cls.name}</option>);
+        const racesOptions = races.map((race) => <option key={race.id} value={race.id}>{race.name}</option>);
+        const classesOptions = classes.map((cls) => <option key={cls.id} value={cls.id}>{cls.name}</option>);
 
         return (
             <div className="row justify-content-center">

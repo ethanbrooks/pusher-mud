@@ -36,7 +36,7 @@ class CharacterList extends Component {
     render() {
         const players = this.state.players
             .map((player) => (
-                <div>{ player.name }</div>
+                <div key={player.toString()}>{ player.name }</div>
             ));
 
         return (
